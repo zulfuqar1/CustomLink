@@ -112,7 +112,7 @@ public class MyList<T>:IEnumerable<T>
         }
         return false;
     }
-    //reverse()
+    //Reverse()
     public class reverse
     {
         public static void Main()
@@ -124,7 +124,7 @@ public class MyList<T>:IEnumerable<T>
             Console.WriteLine(string.Join(',',reverse)); 
         }
     }
-    //clear()
+    //Clear()
     public void clear()
     {
         Capacity= 0;
